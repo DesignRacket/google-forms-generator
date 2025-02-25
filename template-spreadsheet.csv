@@ -1,0 +1,8 @@
+Form Title,Form Description
+Product Feedback Survey,Please provide your feedback on our new product
+Type,Question Title,Required,Help Text,Image URL,Image Title,Choices/Rows,Min/Columns,Low Label,High Label
+text,What is your name?,TRUE,,,,,,,
+paragraph,Please share your initial impressions of the product,FALSE,Be as detailed as possible,,,,,,
+multiple_choice,How would you rate the design of this product?,TRUE,,https://example.com/product-image.jpg,Product Image,"Excellent,Good,Average,Below Average,Poor",,,
+checkbox,Which features did you find most useful?,FALSE,,,,"Feature A,Feature B,Feature C,Feature D,Other",,,
+scale,How likely are you to recommend this product to others?,TRUE,,,,1,10,Not likely,Very likely
