@@ -1,0 +1,77 @@
+{
+  "title": "Product Feedback Survey",
+  "description": "Please provide your feedback on our new product lineup",
+  "collectEmail": true,
+  "allowResponseEdits": true,
+  "limitOneResponsePerUser": true,
+  "questions": [
+    {
+      "type": "text",
+      "title": "What is your name?",
+      "required": true,
+      "helpText": "First and last name"
+    },
+    {
+      "type": "text",
+      "title": "What is your email address?",
+      "required": true
+    },
+    {
+      "type": "paragraph",
+      "title": "Please share your initial impressions of our products",
+      "helpText": "Be as detailed as possible"
+    },
+    {
+      "imageUrl": "https://example.com/product-image-1.jpg",
+      "imageTitle": "Product A",
+      "type": "multiple_choice",
+      "title": "How would you rate Product A?",
+      "choices": ["Excellent", "Good", "Average", "Below Average", "Poor"],
+      "required": true
+    },
+    {
+      "imageUrl": "https://example.com/product-image-2.jpg",
+      "imageTitle": "Product B",
+      "type": "multiple_choice",
+      "title": "How would you rate Product B?",
+      "choices": ["Excellent", "Good", "Average", "Below Average", "Poor"],
+      "required": true
+    },
+    {
+      "imageUrl": "https://example.com/product-image-3.jpg",
+      "imageTitle": "Product C",
+      "type": "multiple_choice",
+      "title": "How would you rate Product C?",
+      "choices": ["Excellent", "Good", "Average", "Below Average", "Poor"],
+      "required": true
+    },
+    {
+      "type": "checkbox",
+      "title": "Which features did you find most useful across all products?",
+      "choices": ["Feature A", "Feature B", "Feature C", "Feature D", "Feature E", "Other"],
+      "helpText": "Select all that apply"
+    },
+    {
+      "type": "grid",
+      "title": "Please rate each product on the following attributes:",
+      "rows": ["Design", "Functionality", "Value for Money", "Ease of Use"],
+      "columns": ["Excellent", "Good", "Average", "Poor", "N/A"]
+    },
+    {
+      "type": "scale",
+      "title": "How likely are you to recommend our products to others?",
+      "min": 1,
+      "max": 10,
+      "labels": {
+        "low": "Not likely",
+        "high": "Very likely"
+      },
+      "required": true
+    },
+    {
+      "type": "paragraph",
+      "title": "Any additional comments or suggestions for improvement?",
+      "helpText": "We value your feedback"
+    }
+  ]
+}
